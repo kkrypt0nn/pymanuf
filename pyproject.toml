@@ -1,0 +1,43 @@
+[project]
+name = "pymanuf"
+version = "2024.2.9"
+authors = [
+  { name="Krypton", email="root@krypton.ninja" },
+]
+description = "📇 A very simple Python library to get the manufacturer of a specific MAC address"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+  "Intended Audience :: Developers",
+
+  "License :: OSI Approved :: MIT License",
+
+  "Operating System :: OS Independent",
+
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+
+  "Topic :: System :: Networking",
+]
+keywords = ["networking", "networks", "mac address", "manufacturer", "mac address manufacturer"]
+license = { file = "LICENSE.md" }
+dependencies = ["requests"]
+
+[project.urls]
+Homepage = "https://github.com/kkrypt0nn/pymanuf"
+Issues = "https://github.com/kkrypt0nn/pymanuf/issues"
+Source = "https://github.com/kkrypt0nn/pymanuf"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+exclude = [
+  "**/__pycache__",
+  "build",
+  "dist",
+]
