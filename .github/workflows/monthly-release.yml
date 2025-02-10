@@ -24,10 +24,6 @@ jobs:
           git add pyproject.toml
           git commit -am "chore: Bump version to $VERSION"
           git push
-      - name: Create Git Tag
-        run: |
-          git tag v$VERSION
-          git push origin $VERSION
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
