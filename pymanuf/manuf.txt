@@ -12,7 +12,7 @@
 # You can get the latest version of this file from
 # https://github.com/kkrypt0nn/pymanuf/blob/main/src/manuf.txt
 
-00:00:00    Xerox Corporation
+00:00:00		Xerox Corporation
 00:00:01		Xerox Corporation
 00:00:02		Xerox Corporation
 00:00:03		Xerox Corporation
@@ -11816,7 +11816,7 @@
 00:50:C2:34:B0:00/36	Ecutel Systems, Inc.
 00:50:C2:34:C0:00/36	Chuo Electric Works Co., LTD.
 00:50:C2:34:D0:00/36	BMK professional electronics GmbH
-00:50:C2:34:E0:00/36	ABB Power Technologies S.p.A.  Unità  Operativa SACE (PTMV)
+00:50:C2:34:E0:00/36	ABB Power Technologies S.p.A.  Unità  Operativa SACE (PTMV)
 00:50:C2:34:F0:00/36	North Pole Engineering, Inc.
 00:50:C2:35:00:00/36	Kinesys Projects Limited
 00:50:C2:35:10:00/36	Finesystem Co., Ltd
@@ -11960,7 +11960,7 @@
 00:50:C2:3D:B0:00/36	Osmetech Inc.
 00:50:C2:3D:C0:00/36	3D perception AS
 00:50:C2:3D:D0:00/36	ELMIC GmbH
-00:50:C2:3D:E0:00/36	ABB Power Technologies S.p.A.  Unità  Operativa SACE (PTMV)
+00:50:C2:3D:E0:00/36	ABB Power Technologies S.p.A.  Unità  Operativa SACE (PTMV)
 00:50:C2:3D:F0:00/36	BiODE Inc.
 00:50:C2:3E:00:00/36	Oy Stinghorn Ltd
 00:50:C2:3E:10:00/36	NeuLion Incorporated
@@ -16421,7 +16421,7 @@
 00:B7:71		Cisco Systems, Inc
 00:B7:8D		Nanjing Shining Electric Automation Co., Ltd
 00:B7:A8		Heinzinger electronic GmbH
-00:B8:10		Yichip Microelectronics (Hangzhou) Co.,Ltd
+00:B8:10		Yichip Microelectronics (Hangzhou) Co.,Ltd
 00:B8:81		New platforms LLC
 00:B8:B3		Cisco Systems, Inc
 00:B8:B6		Motorola Mobility LLC, a Lenovo Company
@@ -19757,7 +19757,7 @@
 14:EB:08		Huawei Technologies Co.,Ltd
 14:EB:33		BSMediasoft Co., Ltd.
 14:EB:B6		TP-Link Corporation Limited
-14:ED:A5		Wächter GmbH Sicherheitssysteme
+14:ED:A5		Wächter GmbH Sicherheitssysteme
 14:ED:BB		2Wire Inc
 14:ED:E4		Kaiam Corporation
 14:EE:9D		AirNav Systems LLC
@@ -20744,7 +20744,7 @@
 1C:C0:E1:E0:00:00/28	Yun Yang Fire Safety Equipment Co.,Ltd.
 1C:C1:0C		Intel Corporate
 1C:C1:1A		Wavetronix
-1C:C1:BC		Yichip Microelectronics (Hangzhou) Co.,Ltd
+1C:C1:BC		Yichip Microelectronics (Hangzhou) Co.,Ltd
 1C:C1:DE		Hewlett Packard
 1C:C3:16		Xiamen Milesight IoT Co., Ltd.
 1C:C3:EB		Guangdong Oppo Mobile Telecommunications Corp.,Ltd
@@ -22967,7 +22967,7 @@
 30:86:F1		Fiberhome Telecommunication Technologies Co.,LTD
 30:87:30		Huawei Technologies Co.,Ltd
 30:87:D9		Ruckus Wireless
-30:88:41		Sichuan AI-Link Technology Co., Ltd.
+30:88:41		Sichuan AI-Link Technology Co., Ltd.
 30:89:44		DEVA Broadcast Ltd.
 30:89:4A		Intel Corporate
 30:89:76		Dalian Lamba Technology Co.,Ltd
@@ -25887,7 +25887,7 @@
 44:AE:44		Huawei Device Co., Ltd.
 44:AE:AB		Guangdong Oppo Mobile Telecommunications Corp.,Ltd
 44:AF:28		Intel Corporate
-44:B2:95		Sichuan AI-Link Technology Co., Ltd.
+44:B2:95		Sichuan AI-Link Technology Co., Ltd.
 44:B3:2D		Tp-Link Technologies Co.,Ltd.
 44:B3:82		Kuang-chi Institute of Advanced Technology
 44:B3:C5		Huawei Device Co., Ltd.
@@ -26285,7 +26285,7 @@
 48:93:DC		Uniway Infocom Pvt Ltd
 48:95:07		Guangdong Oppo Mobile Telecommunications Corp.,Ltd
 48:96:D9		zte corporation
-48:98:CA		Sichuan AI-Link Technology Co., Ltd.
+48:98:CA		Sichuan AI-Link Technology Co., Ltd.
 48:9A:42		Technomate Ltd
 48:9A:5B		Shenzhen iComm Semiconductor CO.,LTD
 48:9B:D5		Extreme Networks Headquarters
@@ -27039,7 +27039,7 @@
 50:11:EB		SilverNet Ltd
 50:13:1D		Motorola Mobility LLC, a Lenovo Company
 50:13:65		Vola Networks Inc.
-50:13:95		Sichuan AI-Link Technology Co., Ltd.
+50:13:95		Sichuan AI-Link Technology Co., Ltd.
 50:13:9D		Sierra Wireless, ULC
 50:14:08		AiNET
 50:14:79		iRobot Corporation
@@ -28932,7 +28932,7 @@
 60:21:03		I4Vine, Inc
 60:21:C0		Murata Manufacturing Co., Ltd.
 60:22:32		Ubiquiti Inc
-60:23:A4		Sichuan AI-Link Technology Co., Ltd.
+60:23:A4		Sichuan AI-Link Technology Co., Ltd.
 60:24:C1		Jiangsu Zhongxun Electronic Technology Co., Ltd
 60:26:02		Texas Instruments
 60:26:AA		Cisco Systems, Inc
@@ -37027,7 +37027,7 @@
 80:99:E7		Sony Corporation
 80:9B:20		Intel Corporate
 80:9D:65		FN-LINK TECHNOLOGY Ltd.
-80:9F:9B		Sichuan AI-Link Technology Co., Ltd.
+80:9F:9B		Sichuan AI-Link Technology Co., Ltd.
 80:9F:AB		Fiberhome Telecommunication Technologies Co.,LTD
 80:9F:F5		Samsung Electronics Co.,Ltd
 80:A0:36		Shanghai MXCHIP Information Technology Co., Ltd.
@@ -37057,7 +37057,7 @@
 80:A9:97		Apple, Inc.
 80:AA:A4		Usag
 80:AB:4D		Nokia Solutions and Networks GmbH & Co. KG
-80:AC:7C		Sichuan AI-Link Technology Co., Ltd.
+80:AC:7C		Sichuan AI-Link Technology Co., Ltd.
 80:AC:AC		Juniper Networks
 80:AC:C8		Phyplus Microelectronics Limited
 80:AD:16		Xiaomi Communications Co Ltd
@@ -37431,13 +37431,13 @@
 84:8A:8D		Cisco Systems, Inc
 84:8B:CD		IEEE Registration Authority
 84:8B:CD:00:00:00/28	SouXin Corporate
-84:8B:CD:10:00:00/28	Shenzhen LTIME In-Vehicle Entertainment System Company Limited
+84:8B:CD:10:00:00/28	Shenzhen LTIME In-Vehicle Entertainment System Company Limited
 84:8B:CD:20:00:00/28	CCX Technologies Inc.
 84:8B:CD:30:00:00/28	Annapurna labs
 84:8B:CD:40:00:00/28	Logic Supply
 84:8B:CD:50:00:00/28	exodraft a/s
 84:8B:CD:60:00:00/28	Twtg R&D B.V.
-84:8B:CD:70:00:00/28	Smart Code (Shenzhen) Technology Co.,Ltd
+84:8B:CD:70:00:00/28	Smart Code (Shenzhen) Technology Co.,Ltd
 84:8B:CD:80:00:00/28	Dunst tronic GmbH
 84:8B:CD:90:00:00/28	Noralsy
 84:8B:CD:A0:00:00/28	Sphera Telecom
@@ -37924,7 +37924,7 @@
 88:96:76		TTC MARCONI s.r.o.
 88:96:B6		Global Fire Equipment S.A.
 88:96:F2		Valeo Schalter und Sensoren GmbH
-88:97:46		Sichuan AI-Link Technology Co., Ltd.
+88:97:46		Sichuan AI-Link Technology Co., Ltd.
 88:97:65		exands
 88:97:DF		Entrypass Corporation Sdn. Bhd.
 88:98:21		Teraon
@@ -40888,7 +40888,7 @@
 90:54:B7		Eltex Enterprise LTD
 90:55:AE		Ericsson, EAB/RWI/K
 90:55:DE		Fiberhome Telecommunication Technologies Co.,LTD
-90:56:07		Sichuan AI-Link Technology Co., Ltd.
+90:56:07		Sichuan AI-Link Technology Co., Ltd.
 90:56:71		Cisco Systems, Inc
 90:56:82		Lenbrook Industries Limited
 90:56:92		Autotalks Ltd.
@@ -42427,7 +42427,7 @@
 9C:80:7D		SYSCABLE Korea Inc.
 9C:80:DF		Arcadyan Technology Corporation
 9C:82:3F		Huawei Device Co., Ltd.
-9C:82:75		Yichip Microelectronics (Hangzhou) Co.,Ltd
+9C:82:75		Yichip Microelectronics (Hangzhou) Co.,Ltd
 9C:82:81		vivo Mobile Communication Co., Ltd.
 9C:83:06		Samsung Electronics Co.,Ltd
 9C:83:BF		PRO-VISION, Inc.
@@ -45023,7 +45023,7 @@ B4:37:D1		IEEE Registration Authority
 B4:37:D1:00:00:00/28	Lezyne INC USA
 B4:37:D1:10:00:00/28	Alturna Networks
 B4:37:D1:20:00:00/28	Fibersystem AB
-B4:37:D1:30:00:00/28	Dimton Co.,Ltd.
+B4:37:D1:30:00:00/28	Dimton Co.,Ltd.
 B4:37:D1:40:00:00/28	Komsis Elektronik Sistemleri San. Tic. Ltd.Sti
 B4:37:D1:50:00:00/28	Stratom, Inc.
 B4:37:D1:60:00:00/28	Yireh Auto Tech Co.,Ltd.
@@ -45234,7 +45234,7 @@ B4:AA:4D		Ensequence, Inc.
 B4:AB:2C		MtM Technology Corporation
 B4:AC:8C		Bern University of Applied Sciences
 B4:AC:9D		Texas Instruments
-B4:AD:A3		Guangzhou Shiyuan Electronic Technology Company Limited
+B4:AD:A3		Guangzhou Shiyuan Electronic Technology Company Limited
 B4:AE:2B		Microsoft
 B4:AE:6F		Circle Reliance, Inc DBA Cranberry Networks
 B4:AE:C1		Apple, Inc.
@@ -46219,7 +46219,7 @@ BC:F8:11		Xiamen DNAKE Technology Co.,Ltd
 BC:F8:7E		Arcadyan Corporation
 BC:F8:8B		zte corporation
 BC:F9:F2		Teko
-BC:FA:B8		Guangzhou Shiyuan Electronic Technology Company Limited
+BC:FA:B8		Guangzhou Shiyuan Electronic Technology Company Limited
 BC:FA:EB		Cisco Systems, Inc
 BC:FC:E7		ASUSTek COMPUTER INC.
 BC:FD:0C		Shenzhen Phaten Tech. LTD
@@ -46970,7 +46970,7 @@ C4:95:00		Amazon Technologies Inc.
 C4:95:4D		IEEE Registration Authority
 C4:95:4D:00:00:00/28	BA International Electronics Co. Ltd.
 C4:95:4D:10:00:00/28	Teletronik AG
-C4:95:4D:20:00:00/28	Shen Zhen Euse Technology Co.,Ltd
+C4:95:4D:20:00:00/28	Shen Zhen Euse Technology Co.,Ltd
 C4:95:4D:30:00:00/28	Sercomm Corporation.
 C4:95:4D:40:00:00/28	GL Solutions Inc.
 C4:95:4D:50:00:00/28	Marble Automation
@@ -49092,7 +49092,7 @@ D4:9C:DD		AMPAK Technology,Inc.
 D4:9C:F4		Palo Alto Networks
 D4:9D:C0		Samsung Electronics Co.,Ltd
 D4:9E:05		zte corporation
-D4:9E:3B		Guangzhou Shiyuan Electronic Technology Company Limited
+D4:9E:3B		Guangzhou Shiyuan Electronic Technology Company Limited
 D4:9E:6D		Wuhan Zhongyuan Huadian Science & Technology Co.,
 D4:9F:DD		Huawei Device Co., Ltd.
 D4:A0:2A		Cisco Systems, Inc
@@ -49127,7 +49127,7 @@ D4:B4:3E		Messcomp Datentechnik GmbH
 D4:B5:CD		Sagemcom Broadband SAS
 D4:B6:80		Shanghai Linkyum Microeletronics Co.,Ltd
 D4:B7:09		zte corporation
-D4:B7:61		Sichuan AI-Link Technology Co., Ltd.
+D4:B7:61		Sichuan AI-Link Technology Co., Ltd.
 D4:B7:D0		Ciena Corporation
 D4:B8:FF		Home Control Singapore Pte Ltd
 D4:B9:2F		Vantiva USA LLC
@@ -49398,7 +49398,7 @@ D8:5F:77		Telink Semiconductor (Shanghai) Co., Ltd.
 D8:60:B0		bioMérieux Italia S.p.A.
 D8:60:B3		Guangdong Global Electronic Technology CO.，LTD
 D8:61:62		Wistron Neweb Corporation
-D8:61:94		Objetivos y Sevicios de Valor Añadido
+D8:61:94		Objetivos y Sevicios de Valor Añadido
 D8:62:DB		Eno Inc.
 D8:63:0D		Motorola (Wuhan) Mobility Technologies Communication Co., Ltd.
 D8:63:75		Xiaomi Communications Co Ltd
@@ -49964,7 +49964,7 @@ DC:B7:AC		Hewlett Packard Enterprise
 DC:B7:FC		Alps Electric (Ireland) Ltd
 DC:B8:08		Extreme Networks Headquarters
 DC:BB:96		Full Solution Telecom
-DC:BD:7A		Guangzhou Shiyuan Electronic Technology Company Limited
+DC:BD:7A		Guangzhou Shiyuan Electronic Technology Company Limited
 DC:BD:CC		Quectel Wireless Solutions Co.,Ltd.
 DC:BE:04		Texas Instruments
 DC:BE:49		Itel Mobile Limited
@@ -51656,7 +51656,7 @@ EC:9B:2D		China Mobile Group Device Co.,Ltd.
 EC:9B:5B		Nokia Corporation
 EC:9B:8B		Hewlett Packard Enterprise
 EC:9B:F3		Samsung Electro-Mechanics(Thailand)
-EC:9C:32		Sichuan AI-Link Technology Co., Ltd.
+EC:9C:32		Sichuan AI-Link Technology Co., Ltd.
 EC:9E:CD		Artesyn Embedded Technologies
 EC:9F:0D		IEEE Registration Authority
 EC:9F:0D:00:00:00/28	Hesai Photonics Technology Co., Ltd
