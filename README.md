@@ -20,7 +20,7 @@ A very simple Python library to get the manufacturer of a specific MAC address
 
 ### Installation
 
-If you want to use this library for one of your projects, you can install it like any other Rust crate
+If you want to use this library for one of your projects, you can install it like any other Python library
 
 ```bash
 python -m pip install pymanuf
@@ -60,7 +60,7 @@ except Exception as e:
 
 ## Troubleshooting
 
-If you have problems using the crate, you can open up an [issue](https://github.com/kkrypt0nn/pymanuf/issues) or join my [Discord server](https://discord.gg/mTBrXyWxAF).
+If you have problems using the library, you can open up an [issue](https://github.com/kkrypt0nn/pymanuf/issues) or join my [Discord server](https://discord.gg/mTBrXyWxAF).
 
 ## Contributing
 
