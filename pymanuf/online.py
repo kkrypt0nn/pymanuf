@@ -16,7 +16,7 @@ __CONTENT = None
 def __fetch_manuf():
     global __LAST_FETCHED, __CONTENT
     response = requests.get(
-        "https://raw.githubusercontent.com/kkrypt0nn/pymanuf/refs/heads/main/src/manuf.txt",
+        "https://raw.githubusercontent.com/kkrypt0nn/pymanuf/refs/heads/main/pymanuf/manuf.txt",
         timeout=5,
     )
     if response.status_code == 200:
