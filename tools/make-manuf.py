@@ -73,7 +73,7 @@ def main() -> None:
     keys = list(content.keys())
     keys.sort()
     sorted_content = {i: content[i] for i in keys}
-    with open("src/manuf.txt", "w+", encoding="utf-8") as manuf_file:
+    with open("pymanuf/manuf.txt", "w+", encoding="utf-8") as manuf_file:
         manuf_file.write(file_header)
         for k, v in sorted_content.items():
             separator = "\t" * 2
