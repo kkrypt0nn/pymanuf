@@ -1,6 +1,6 @@
 [project]
 name = "pymanuf"
-version = "2025.2.12"
+version = "2025.3.1"
 authors = [
   { name="Krypton", email="root@krypton.ninja" },
 ]
