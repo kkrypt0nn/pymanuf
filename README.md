@@ -6,7 +6,6 @@
 [![PyPi Supported Versions Badge](https://img.shields.io/pypi/pyversions/pymanuf.svg)](https://pypi.org/p/pymanuf)
 [![CI Badge](https://github.com/kkrypt0nn/pymanuf/actions/workflows/ci.yml/badge.svg)](https://github.com/kkrypt0nn/pymanuf/actions)
 
-[![Discord Server Badge](https://img.shields.io/discord/739934735387721768?logo=discord)](https://discord.gg/mTBrXyWxAF)
 [![Last Commit Badge](https://img.shields.io/github/last-commit/kkrypt0nn/pymanuf)](https://github.com/kkrypt0nn/pymanuf/commits/main)
 [![Conventional Commits Badge](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org/en/v1.0.0/)
 
@@ -60,7 +59,7 @@ except Exception as e:
 
 ## Troubleshooting
 
-If you have problems using the library, you can open up an [issue](https://github.com/kkrypt0nn/pymanuf/issues) or join my [Discord server](https://discord.gg/mTBrXyWxAF).
+If you have problems using the library, you can open up an [issue](https://github.com/kkrypt0nn/pymanuf/issues).
 
 ## Contributing
 
