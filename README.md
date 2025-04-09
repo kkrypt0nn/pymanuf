@@ -2,6 +2,7 @@
 
 # pymanuf
 
+[![Discord Server Badge](https://img.shields.io/discord/1358456011316396295?logo=discord)](https://discord.gg/xj6y5ZaTMr)
 [![PyPi Badge](https://img.shields.io/pypi/v/pymanuf.svg)](https://pypi.org/p/pymanuf)
 [![PyPi Supported Versions Badge](https://img.shields.io/pypi/pyversions/pymanuf.svg)](https://pypi.org/p/pymanuf)
 [![CI Badge](https://github.com/kkrypt0nn/pymanuf/actions/workflows/ci.yml/badge.svg)](https://github.com/kkrypt0nn/pymanuf/actions)
@@ -59,7 +60,7 @@ except Exception as e:
 
 ## Troubleshooting
 
-If you have problems using the library, you can open up an [issue](https://github.com/kkrypt0nn/pymanuf/issues).
+If you have problems using the library, you can open up an [issue](https://github.com/kkrypt0nn/pymanuf/issues) or join my [Discord server](https://discord.gg/xj6y5ZaTMr).
 
 ## Contributing
 
