@@ -12,9 +12,9 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
       - name: Set Version Variables
-        run: echo "VERSION=$(date +'%-Y.%-m.%-d')" >> $GITHUB_ENV
+        run: echo "VERSION=2025.8.4" >> $GITHUB_ENV
       - name: Set Release Date
-        run: echo "RELEASE_DATE=$(date +'%-B %-Y')" >> $GITHUB_ENV
+        run: echo "RELEASE_DATE='August 2025'" >> $GITHUB_ENV
       - name: Update pyproject.toml Version
         run: sed -i 's/^version = ".*"/version = "'"$VERSION"'"/' pyproject.toml
       - name: Commit and Push Changes
