@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout source code
         uses: actions/checkout@v4
+      - name: Download manuf.txt
+        run: wget https://raw.githubusercontent.com/kkrypt0nn/manuf/refs/heads/main/manuf.txt -O pymanuf/manuf.txt
       - name: Run formatter
         uses: rickstaa/action-black@v1
         with:
@@ -26,6 +28,8 @@ jobs:
     steps:
       - name: Checkout source code
         uses: actions/checkout@v4
+      - name: Download manuf.txt
+        run: wget https://raw.githubusercontent.com/kkrypt0nn/manuf/refs/heads/main/manuf.txt -O pymanuf/manuf.txt
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
