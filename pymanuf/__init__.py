@@ -1,36 +1,75 @@
 import os
 import re
+from typing import Dict, Tuple
 
 __all__ = ["lookup"]
 
-
-class Content:
-    def __init__(self):
-        self.data = {}
-        self.slash_28 = {}
-        self.slash_36 = {}
+__MAC_RE = re.compile(r"^([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})$")
 
 
-def __parse_content(source: str) -> Content:
-    content = Content()
+def __mac_to_u64(mac: str) -> int | None:
+    hex_str = mac.replace(":", "")
+    if len(hex_str) == 6:
+        hex_str += "000000"
+    if len(hex_str) != 12:
+        return None
+    try:
+        return int(hex_str, 16)
+    except ValueError:
+        return None
+
+
+# Intentionally not match-case because of Python 3.9
+def __mask_mac(mac: int, cidr: int) -> int:
+    if cidr == 24:
+        mask = 0xFFFFFF000000
+    elif cidr == 28:
+        mask = 0xFFFFFFF00000
+    elif cidr == 36:
+        mask = 0xFFFFFFFFF000
+    else:
+        mask = 0xFFFFFFFFFFFF
+    return mac & mask
+
+
+def __parse_content(source: str) -> Dict[Tuple[int, int], str]:
+    data: Dict[Tuple[int, int], str] = {}
 
     for line in source.splitlines():
         line = line.replace("\t\t", "\t")
-        fields = line.split(maxsplit=1)
 
-        if not fields or fields[0].startswith("#"):
+        if not line or line.startswith("#"):
             continue
 
-        mac, manuf = fields
+        parts = line.split("\t", 1)
+        if len(parts) != 2:
+            continue
+        mac, manuf = parts
 
-        if mac.endswith(":00/28"):
-            content.slash_28[mac] = manuf
-        elif mac.endswith(":00/36"):
-            content.slash_36[mac] = manuf
+        if "/" in mac:
+            mac_prefix, cidr_str = mac.split("/", 1)
+            try:
+                cidr = int(cidr_str)
+            except ValueError:
+                continue
 
-        content.data[mac] = manuf
+            if cidr not in (28, 36):
+                continue
 
-    return content
+            mac_val = __mac_to_u64(mac_prefix)
+            if mac_val is None:
+                continue
+
+            data[(__mask_mac(mac_val, cidr), cidr)] = manuf
+        else:
+            mac_val = __mac_to_u64(mac)
+            if mac_val is None:
+                continue
+
+            cidr = 24
+            data[(__mask_mac(mac_val, cidr), cidr)] = manuf
+
+    return data
 
 
 with open(
@@ -42,22 +81,16 @@ with open(
 def lookup(mac: str) -> str:
     new_mac = mac.upper().replace("-", ":")
 
-    if not re.match(r"^([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})$", new_mac):
+    if not __MAC_RE.match(new_mac):
         raise ValueError("Invalid MAC address")
 
-    if res := __CONTENT.slash_28.get(f"{new_mac[:10]}0:00:00/28"):
-        return res
-    if res := __CONTENT.slash_36.get(f"{new_mac[:13]}0:00/36"):
-        return res
-    if new_mac in __CONTENT.data:
-        return __CONTENT.data[new_mac]
+    mac_val = __mac_to_u64(new_mac)
+    if mac_val is None:
+        raise ValueError("Invalid MAC format")
 
-    prefix = mac[:8]
-    return next(
-        (
-            __CONTENT.data[key]
-            for key in sorted(__CONTENT.data)
-            if key.startswith(prefix)
-        ),
-        "unknown",
-    )
+    for cidr in (36, 28, 24):
+        masked = __mask_mac(mac_val, cidr)
+        if (masked, cidr) in __CONTENT:
+            return __CONTENT[(masked, cidr)]
+
+    return "unknown"

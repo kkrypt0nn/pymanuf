@@ -1,12 +1,12 @@
 name: pymanuf CI (Lint & Test)
 
 on:
-    push:
-        branches:
-            - main
-    workflow_run:
-        workflows: ["Update manufacturer file"]
-        types: [completed]
+  push:
+    branches:
+      - main
+  workflow_run:
+    workflows: ["Update manufacturer file"]
+    types: [completed]
 
 jobs:
   black_formatter:

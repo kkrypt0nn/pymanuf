@@ -5,12 +5,12 @@ from threading import Lock
 
 import requests
 
-from . import __parse_content
+from . import __MAC_RE, __mac_to_u64, __mask_mac, __parse_content
 
 __TTL = 3600
 __LAST_FETCHED = 0
 __CONTENT_LOCK = Lock()
-__CONTENT = None
+__CONTENT = {}
 
 
 def __fetch_manuf():
@@ -44,22 +44,16 @@ def lookup(mac: str) -> str:
 
     new_mac = mac.upper().replace("-", ":")
 
-    if not re.match(r"^([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})$", new_mac):
+    if not __MAC_RE.match(new_mac):
         raise ValueError("Invalid MAC address")
 
-    if new_mac in __CONTENT.data:
-        return __CONTENT.data[new_mac]
-    if res := __CONTENT.slash_28.get(f"{new_mac[:10]}0:00:00/28"):
-        return res
-    if res := __CONTENT.slash_36.get(f"{new_mac[:13]}0:00/36"):
-        return res
+    mac_val = __mac_to_u64(new_mac)
+    if mac_val is None:
+        raise ValueError("Invalid MAC format")
 
-    prefix = new_mac[:8]
-    return next(
-        (
-            __CONTENT.data[key]
-            for key in sorted(__CONTENT.data)
-            if key.startswith(prefix)
-        ),
-        "unknown",
-    )
+    for cidr in (36, 28, 24):
+        masked = __mask_mac(mac_val, cidr)
+        if (masked, cidr) in __CONTENT:
+            return __CONTENT[(masked, cidr)]
+
+    return "unknown"
